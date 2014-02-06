@@ -21,10 +21,18 @@
     <!-- Keypad -->
     <a href="#" class="tiny button" data-reveal-id="myModal" data-reveal>Keypad</a>
 
-     </div>
+  
+    <!-- Input Dropdown -->
+
+    <a href="#" data-dropdown="drop" class="tiny success round button dropdown">Source</a><br>
+
+ </div>
     </div>
 
-    <!-- Model Details -->
+    <!-- End of Controls-->
+
+    
+    <!-- Model Details (Keypad) -->
 
     <div id="myModal" class="reveal-modal" data-reveal>
 
@@ -48,15 +56,25 @@
     <li><a href="#" class="tiny button">9</a></li>
   </ul>
 </div>
-  
-  
-
-
 
     <a class="close-reveal-modal">&#215;</a>
 </div>
-    
-    <!-- VOLUME & CHAN -->
+<!-- End of Keypad -->
+
+
+<!-- Model Details (Dropdown) -->
+
+    <ul id="drop" data-dropdown-content class="f-dropdown">
+      <li><a href="#">TV</a></li>
+      <li><a href="#">AV</a></li>
+      <li><a href="#">VGA</a></li>
+      <li><a href="#">Components</a></li>
+      <li><a href="#">HDMI</a></li>
+    </ul>
+    <!-- End of Dropdown -->
+  
+
+  <!-- VOLUME & CHAN -->
     <div class="row">
       
       <!-- VOL -->
@@ -83,7 +101,8 @@
           
       </div>
  
-    </div><!-- end Chan & Vol -->
+    </div>
+    <!-- end Chan & Vol -->
  
     <!-- RECORD & PLAY -->
     <div class="row">
@@ -91,9 +110,6 @@
         
         <dl class="accordion" data-accordion>
             <dd>
-            
-                  
-                  <h3>Record</h3>
  
           <div class="button-bar">
       <ul class="button-group round">
@@ -102,13 +118,15 @@
         <li><a href="#" class="small button alert">Stop</a></li>
       
       </ul>
-      <ul class="button-group [radius]">
+      <ul class="button-group radius">
         <li><a href="#" class="tiny button"> << </a></li>
         <li><a href="#" class="tiny button"> >> </a></li>
-        <li><a href="#" class="tiny button"> <<|</a></li>
+        <li><a href="#" class="tiny button"> <<| </a></li>
         <li><a href="#" class="tiny button"> |>> </a></li>
       </ul>
     </div>
+
+     <!-- End of Record & Play --> 
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
