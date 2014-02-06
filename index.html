@@ -9,6 +9,34 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
+
+
+    <nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">My Site</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Right Button Active</a></li>
+      <li class="has-dropdown">
+        <a href="#">Right Button with Dropdown</a>
+        <ul class="dropdown">
+          <li><a href="#">First link in dropdown</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Left Nav Button</a></li>
+    </ul>
+  </section>
+</nav>
   
     
   <!-- ON/OFF CONTROLS -->
@@ -21,6 +49,10 @@
     <!-- Keypad -->
     <a href="#" class="tiny button" data-reveal-id="myModal" data-reveal>Keypad</a>
 
+    <!-- Mute button -->
+     <ul class="button-group round">
+          <a href="#" class="tiny button alert">Mute</a>
+
   
     <!-- Input Dropdown -->
 
@@ -30,6 +62,14 @@
     </div>
 
     <!-- End of Controls-->
+
+
+    <a href="#" data-dropdown="drop" class="large button dropdown">Dropdown Button</a><br>
+<ul id="drop" data-dropdown-content class="f-dropdown">
+  <li><a href="#">This is a link</a></li>
+  <li><a href="#">This is another</a></li>
+  <li><a href="#">Yet another</a></li>
+</ul>
 
     
     <!-- Model Details (Keypad) -->
@@ -64,7 +104,7 @@
 
 <!-- Model Details (Dropdown) -->
 
-    <ul id="drop" data-dropdown-content class="f-dropdown">
+    <!-- <ul id="drop" data-dropdown-content class="f-dropdown">
       <li><a href="#">TV</a></li>
       <li><a href="#">AV</a></li>
       <li><a href="#">VGA</a></li>
