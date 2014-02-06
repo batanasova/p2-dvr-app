@@ -1,11 +1,5 @@
-.tabs dd {
-	width: 96px;
+body {
+	background-color: black;
 
 }
 
-.tabs dd.active a {
-    background: #f0f;
-
-    
-    transition: background .5s;
-}
