@@ -13,26 +13,28 @@
     
   <!-- ON/OFF CONTROLS -->
     <div class="row">
-      <div class="small-12 columns">
-          
-            <ul class="button-group round">
-          <a href="#" class="tiny button alert">Power Up</a>
- 
-    <!-- Keypad -->
-    <ul class="button-ground round">
-    <a href="#" class="tiny button" data-reveal-id="myModal" data-reveal>Keypad</a>
+    <div class="small-12 columns">
 
-    <!-- Mute button -->
-     <ul class="button-group radius">
-          <a href="#" class="tiny button alert">Mute</a>
+  <div class="button-bar">
+      
+    <ul class="button-group round">
 
-  
-    <!-- Input Dropdown -->
-      <ul class="button-group radius">
-    <a href="#" data-dropdown="drop" class="tiny success button dropdown">Source</a><br>
+      <a href="#" class="tiny button alert">ON/OFF</a>
+        
+      <a href="#" class="tiny button secondary" data-reveal-id="myModal" data-reveal>Keypad</a>
+     
+      <a href="#" class="tiny button alert">Mute</a>
+     
+  </div>
 
  </div>
     </div>
+
+    <!-- Input Dropdown -->
+  <div class="small-12 columns">
+      <ul class="button-group round">
+    <a href="#" data-dropdown="drop" class="small success button dropdown">Source</a><br>
+ </div>
 
     <!-- End of Controls-->
 
@@ -69,7 +71,6 @@
 
 
 <!-- Model Details (Dropdown) -->
-
     <ul id="drop" data-dropdown-content class="f-dropdown">
       <li><a href="#">TV</a></li>
       <li><a href="#">AV</a></li>
@@ -77,37 +78,35 @@
       <li><a href="#">Components</a></li>
       <li><a href="#">HDMI</a></li>
     </ul>
+
     <!-- End of Dropdown -->
   
 
   <!-- VOLUME & CHAN -->
+    <div class="small-12 columns">
     <div class="row">
       
       <!-- VOL -->
-      <div class="small-6 columns">
-          
+    
           <div class="button-bar">
             <ul class="button-group round">
               <li><a href="#" class="tiny button secondary">VOL +</a></li>
               <li><a href="#" class="tiny button secondary">VOL -</a></li>
             </ul>
-          </div>
- 
-      </div>
-       
-      <!-- CHAN -->
-      <div class="small-6 columns">
- 
-          <div class="button-bar">
+
             <ul class="button-group round">
               <li><a href="#" class="tiny button secondary">CHAN +</a></li>
               <li><a href="#" class="tiny button secondary">CHAN -</a></li>
             </ul>
           </div>
+ 
+ 
           
       </div>
  
     </div>
+    </div>
+
     <!-- end Chan & Vol -->
  
     <!-- RECORD & PLAY -->
@@ -122,15 +121,20 @@
         <li><a href="#" class="small button success">Play</a></li>
         <li><a href="#" class="small button secondary">Pause</a></li>
         <li><a href="#" class="small button alert">Stop</a></li>
-      
+      </div>
+
+      <div class="small-12 columns">  
       </ul>
       <ul class="button-group radius">
+        <li><a href="#" class="tiny button"> <<| </a></li>
         <li><a href="#" class="tiny button"> << </a></li>
         <li><a href="#" class="tiny button"> >> </a></li>
-        <li><a href="#" class="tiny button"> <<| </a></li>
         <li><a href="#" class="tiny button"> |>> </a></li>
       </ul>
     </div>
+  </div>
+
+</div>
 
      <!-- End of Record & Play --> 
     
